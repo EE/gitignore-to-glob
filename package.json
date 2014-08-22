@@ -1,6 +1,6 @@
 {
   "name": "gitignore-to-glob",
-  "version": "0.1.1-pre",
+  "version": "0.1.1",
   "description": "Transforms .gitignore patterns to ones compatible with the glob package (used by Grunt & others)",
   "homepage": "https://github.com/EE/gitignore-to-glob",
   "author": {
