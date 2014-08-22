@@ -37,6 +37,12 @@ The most basic usage:
 ```js
 require('gitignore-to-glob')();
 ```
+This will convert files from the main `'.gitignore'`.
+
+```js
+require('gitignore-to-glob')('app/.gitignore', ['app', 'test']);
+```
+This will convert the `'app/.gitignore'` file but will omit patterns outside directories `app` and `test`.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using `npm test`.
