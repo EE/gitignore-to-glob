@@ -2,7 +2,7 @@
 
 > Transforms .gitignore patterns to ones compatible with the glob package (used by Grunt & others)
 
-[![Build Status](https://travis-ci.org/EE/gitignore-to-glob.svg?branch=master)](https://travis-ci.org/EE/gitignore-to-glob.svg)
+[![Build Status](https://travis-ci.org/EE/gitignore-to-glob.svg?branch=master)](https://travis-ci.org/EE/gitignore-to-glob)
 [![Build status](https://ci.appveyor.com/api/projects/status/oi2hv39087wp6c00/branch/master)](https://ci.appveyor.com/project/mzgol/gitignore-to-glob/branch/master)
 ## Installation
 
