@@ -19,11 +19,7 @@
     "url": "https://github.com/EE/gitignore-to-glob.git"
   },
   "bugs": "https://github.com/EE/gitignore-to-glob/issues",
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": "MIT",
   "files": [
     "lib"
   ],
