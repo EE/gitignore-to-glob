@@ -7,7 +7,7 @@
 var assert = require('assert');
 
 try {
-    assert.strictEqual(eval('(() => 2)()'), 2);
+    assert.strictEqual(eval('(r => [...r])([2])[0]'), 2);
     module.exports = require('./lib/gitignore-to-glob');
 } catch (e) {
     module.exports = require('./dist/lib/gitignore-to-glob');
