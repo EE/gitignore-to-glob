@@ -20,7 +20,9 @@
   "bugs": "https://github.com/EE/gitignore-to-glob/issues",
   "license": "MIT",
   "files": [
-    "lib"
+    "index.js",
+    "lib",
+    "dist/lib"
   ],
   "devDependencies": {
     "eslint-config-mgol": "0.0.10",
