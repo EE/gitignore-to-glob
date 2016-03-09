@@ -9,9 +9,7 @@
   },
   "keywords": [
     "gitignore",
-    "glob",
-    "modules",
-    "dependencies"
+    "glob"
   ],
   "repository": {
     "type": "git",
