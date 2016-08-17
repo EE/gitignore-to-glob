@@ -1,0 +1,9 @@
+{
+    "root": true,
+
+    "extends": "mgol",
+
+    "env": {
+        "node": true
+    }
+}
