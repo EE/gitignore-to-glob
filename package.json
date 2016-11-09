@@ -23,7 +23,7 @@
     "lib"
   ],
   "devDependencies": {
-    "eslint-config-mgol": "0.0.33",
+    "eslint-config-mgol": "0.0.34",
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
     "grunt-contrib-clean": "1.0.0",
