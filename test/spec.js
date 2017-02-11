@@ -56,4 +56,9 @@ describe('gitignoreToGlob', () => {
         assertNotContain(processedArray, '!pattern2');
         assertContain(processedArray, '!pattern3');
     });
+
+    it('should treat gitignore as in-memory string with string:true option', () => {
+        const result = gitignoreToGlob('node_modules', {string: true});
+        assert.deepEqual(result, ['!**/node_modules', '!**/node_modules/**']);
+    });
 });
