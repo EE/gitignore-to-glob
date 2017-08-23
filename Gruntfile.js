@@ -2,7 +2,7 @@
  * gitignore-to-glob
  * https://github.com/EE/gitignore-to-glob
  *
- * Author Michał Gołębiowski <m.goleb@gmail.com>
+ * Author Michał Gołębiowski-Owczarek <m.goleb@gmail.com>
  * Licensed under the MIT license.
  */
 

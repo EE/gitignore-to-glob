@@ -4,7 +4,7 @@
   "description": "Transforms .gitignore patterns to ones compatible with the glob package (used by Grunt & others)",
   "homepage": "https://github.com/EE/gitignore-to-glob",
   "author": {
-    "name": "Michał Gołębiowski",
+    "name": "Michał Gołębiowski-Owczarek",
     "email": "m.goleb@gmail.com"
   },
   "keywords": [
