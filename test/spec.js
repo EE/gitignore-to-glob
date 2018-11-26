@@ -56,4 +56,8 @@ describe('gitignoreToGlob', () => {
         assertNotContain(processedArray, '!pattern2');
         assertContain(processedArray, '!pattern3');
     });
+
+    it('should not duplicate the / when path ends with /', () => {
+        assertDeep('ending-slash', ['!**/pattern', '!**/pattern/**']);
+    });
 });
