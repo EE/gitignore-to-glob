@@ -38,8 +38,8 @@
         "time-grunt": "2.0.0"
     },
     "scripts": {
-        "prettier-check": "prettier --check '**/*.{json,js,yml,yaml,md}'",
-        "prettier-format": "prettier --write '**/*.{json,js,yml,yaml,md}'",
+        "prettier-check": "prettier --check \"**/*.{json,js,yml,yaml,md}\"",
+        "prettier-format": "prettier --write \"**/*.{json,js,yml,yaml,md}\"",
         "test": "npm run prettier-check && grunt"
     },
     "engines": {
