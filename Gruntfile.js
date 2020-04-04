@@ -14,20 +14,13 @@ module.exports = function (grunt) {
     grunt.initConfig({
         clean: {
             all: {
-                src: [
-                    '*.log',
-                    'test/*/*-copy',
-                ],
+                src: ['*.log', 'test/*/*-copy'],
             },
         },
 
         eslint: {
             all: {
-                src: [
-                    '*.js',
-                    'lib',
-                    'test',
-                ],
+                src: ['*.js', 'lib', 'test'],
             },
         },
 
@@ -44,15 +37,9 @@ module.exports = function (grunt) {
     // Load all grunt tasks matching the `grunt-*` pattern.
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('lint', [
-        'eslint',
-    ]);
+    grunt.registerTask('lint', ['eslint']);
 
     grunt.registerTask('test', ['mochaTest']);
 
-    grunt.registerTask('default', [
-        'clean',
-        'lint',
-        'test',
-    ]);
+    grunt.registerTask('default', ['clean', 'lint', 'test']);
 };
